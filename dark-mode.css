@@ -1,0 +1,144 @@
+:root {
+	--base: black;
+	--base-ninety: rgba(255, 255, 255, 0.9);
+	--base-seventy-five: rgba(255, 255, 255, 0.75);
+	--base-seventy: rgba(255, 255, 255, 0.7);
+	--base-fifty: rgba(255, 255, 255, 0.5);
+	--base-fourty: rgba(255, 255, 255, 0.4);
+	--base-thiry: rgba(255, 255, 255, 0.3);
+	--base-twenty: rgba(255, 255, 255, 0.2);
+	--base-five: rgba(255, 255, 255, 0.05);
+	--base-ten: rgba(255, 255, 255, 0.1);
+	--base-nine: rgba(255, 255, 255, 0.09);
+	--container-color: #192633;
+	--conversation-bg: rgb(25, 38, 51);
+	--list-header-color: #202C3A;
+	--blue: #0084ff;
+}
+
+html.dark-mode body {
+	color: var(--base-seventy);
+	background: var(--container-color) !important;
+}
+
+html .dark-mode a:hover {
+	color: var(--container-color) !important;
+}
+
+html .dark-mode .hero_4c01e a:hover {
+    color: var(--container-color) !important;
+}
+
+html.dark-mode .productRequest_82e25 a:hover {
+	background: transparent !important;
+}
+
+/* Main container? */
+html.dark-mode .hero_4c01e {
+	background: var(--container-color) !important;
+}
+
+/* header container? */
+html.dark-mode .header_0a28e {
+	background: var(--container-color) !important;
+}
+
+
+/* Card container? */
+html.dark-mode  .productRequest_82e25{
+	background: var(--container-color) !important;
+}
+
+
+
+
+/* Card container? */
+html.dark-mode  .header_fb2c3{
+	background: var(--container-color) !important;
+}
+
+/* Card container? */
+html.dark-mode  .headerWithTitleAndChildren_d144a .header_fb2c3{
+	background: var(--container-color) !important;
+}
+
+html.dark-mode  .white_09016.border_64d93.margin_1b96e{
+	background: var(--container-color) !important;
+}
+
+
+
+
+
+/* Card container? */
+html.dark-mode  .white_09016.border_64d93.margin_1b96e{
+	/*border-color: black;*/
+	background: var(--base-five);
+}
+
+
+html.dark-mode .item_54fdd a:hover {
+	background: transparent !important;
+}
+
+html.dark-mode .list_0372b a:hover {
+	background: transparent !important;
+}
+
+
+html.dark-mode .item_6a520 a:hover {
+	background: transparent !important;
+}
+
+
+html.dark-mode  .item_1523a.activeItem_c89bf.item_1523a{
+	/*border-color: black;*/
+	background: var(--base-five);
+}
+
+
+
+
+
+
+
+/* Card container? */
+html.dark-mode  .font_9d927.grey_bbe43.xSmall_1a46e.normal_d2e66.topic_ca358.button_53e93.uppercase_a49b4{
+	color: black !important;
+}
+
+/* Card container? */
+html.dark-mode  .postsList_b2208{
+	background: var(--container-color) !important;
+}
+
+html.dark-mode  .button_30e5c.smallSize_5216f.subtleVariant_42ccf.simpleVariant_8a863.button_e47d2{
+	color: black !important;
+}
+
+html.dark-mode .font_9d927.black_476ed.small_231df.normal_d2e66.itemText_063f9{
+	color: white !important;
+}
+
+
+
+html.dark-mode .font_9d927.black_476ed.xLarge_18016.bold_f69ef.title_88ce7{
+	color: white !important;
+}
+
+html.dark-mode .font_9d927.black_476ed.large_db9e7.light_4a7e0.title_39c87{
+	color: white !important;
+}
+
+
+
+html.dark-mode .font_9d927.black_476ed.large_db9e7.light_4a7e0.title_9ddaf{
+	color: white !important;
+}
+
+
+html.dark-mode .mask_98dce{
+	visibility: hidden;
+}
+
+

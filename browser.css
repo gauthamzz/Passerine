@@ -1,0 +1,68 @@
+html {/*
+	overflow: hidden;*/
+}
+
+/* Add OS-specific fonts */
+body {
+	font-family: -apple-system,
+			BlinkMacSystemFont,
+			'Segoe UI',
+			Roboto,
+			Oxygen-Sans,
+			Ubuntu,
+			Cantarell,
+			'Helvetica Neue',
+			sans-serif,
+			'Apple Color Emoji',
+			'Segoe UI Emoji',
+			'Segoe UI Symbol' !important;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: 'liga', 'clig', 'kern';
+}
+
+
+.secondaryContent_cdfcd{
+	display: none;
+}
+
+
+@media all and (max-width: 700px) {
+	/* Make right column flexible in compact mode */
+	._1q5- {
+		position: absolute !important;
+		right: 0 !important;
+		left: 74px !important;
+		height: 100% !important;
+	}
+
+	/* Fix for left space in compact mode */
+	html.sidebar-hidden ._1q5- {
+		left: 0px !important;
+	}
+
+	/* `New Conversation` icon */
+	._30yy[href='/new'] {
+		display: none !important;
+	}
+
+	/* Hide right sidebar in compact mode */
+	._4_j5 {
+		display: none !important;
+	}
+}
+
+/* Don't show outline on clickable elements except in the delete/mute modal so that we know what we are selecting */
+a,
+*[role='button'] {
+	outline: none !important;
+}
+
+html .customizeLink_98c2c{
+	visibility: hidden;
+}
+
+
+/* hide navbar */
+html .navigation_fe7df{
+	visibility: hidden;
+}	
