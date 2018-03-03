@@ -8,7 +8,7 @@ Passerine is a desktop version of Product Hunt.
 
 <br>
 
-<a href="https://github.com/sindresorhus/caprine/releases/latest">
+<a href="https://github.com/aviary-apps/Passerine/releases/latest">
 	<img src="media/light.png" width="846">
 </a>
 
@@ -17,8 +17,7 @@ Passerine is a desktop version of Product Hunt.
 ## Highlights
 
 - [Dark theme](#dark-mode)
-
-
+- [Always on Top](#always-on-top)
 
 
 ## Features
@@ -64,6 +63,10 @@ See the [`electron-builder` docs](https://github.com/electron-userland/electron-
 
 Passerine is a third-party app and is not affiliated with Facebook.
 
+## Created by 
+
+- [Gautham Santhosh](http://github.com/gauthamzz) 
+- [Aswin VB](http://github.com/aswinzz)
 
 ## License
 
