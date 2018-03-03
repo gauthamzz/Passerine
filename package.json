@@ -30,7 +30,7 @@
 		"facebook-locales": "^1.0.464"
 	},
 	"devDependencies": {
-		"electron": "1.7.10",
+		"electron": "1.7.11",
 		"electron-builder": "19.54.0",
 		"xo": "*"
 	},
@@ -45,7 +45,7 @@
 			"**/*",
 			"!media${/*}"
 		],
-		"appId": "com.sindresorhus.caprine",
+		"appId": "com.aviary-apps.passerine",
 		"mac": {
 			"category": "public.app-category.social-networking",
 			"electronUpdaterCompatibility": ">=2.18.2"
