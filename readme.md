@@ -1,8 +1,8 @@
 # Passerine <img src="static/Icon.png" width="60">
 
-> Product Hunt desktop app
+> Product Hunt desktop app :rocket:
 
-Passerine is a desktop version of Product Hunt.
+Passerine is a desktop version of Product Hunt :rocket:.
 
 **[Website](https://aviary-apps.github.io/passerine)** &nbsp;&nbsp;
 
@@ -61,7 +61,7 @@ See the [`electron-builder` docs](https://github.com/electron-userland/electron-
 
 ## Disclaimer
 
-Passerine is a third-party app and is not affiliated with Facebook.
+Passerine is a third-party app and is not affiliated with Product Hunt.
 
 ## Created by 
 
