@@ -4,9 +4,10 @@
 
 Passerine is a desktop version of Product Hunt :rocket:.
 
-**[Website](https://aviary-apps.github.io/passerine)** &nbsp;&nbsp;
+**[Website](https://aviary-apps.github.io/passerine)** &nbsp;&nbsp; **[Releases](https://github.com/aviary-apps/Passerine/releases)** 
 
 <br>
+
 
 <a href="https://github.com/aviary-apps/Passerine/releases/latest">
 	<img src="media/light.png" width="846">
