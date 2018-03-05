@@ -1,4 +1,4 @@
-# Passerine <img src="static/Icon.png" width="60">
+# Passerine <img src="static/Icon.png" width="60"> <img src="static/passerine.png" width="60">
 
 > Product Hunt desktop app :rocket:
 
