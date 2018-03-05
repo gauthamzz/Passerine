@@ -64,10 +64,11 @@ See the [`electron-builder` docs](https://github.com/electron-userland/electron-
 
 Passerine is a third-party app and is not affiliated with Product Hunt.
 
-## Created by 
+## Credits
 
 - [Gautham Santhosh](http://github.com/gauthamzz) 
 - [Aswin VB](http://github.com/aswinzz)
+- [sindresorhus](https://github.com/sindresorhus/) and his project [caprine](https://github.com/sindresorhus/caprine)from which most of the Passerine, is insipred from.
 
 ## License
 
