@@ -68,7 +68,7 @@ Passerine is a third-party app and is not affiliated with Product Hunt.
 
 - [Gautham Santhosh](http://github.com/gauthamzz) 
 - [Aswin VB](http://github.com/aswinzz)
-- [sindresorhus](https://github.com/sindresorhus/) and his project [caprine](https://github.com/sindresorhus/caprine)from which most of the Passerine, is insipred from.
+- [sindresorhus](https://github.com/sindresorhus/) and his project [caprine](https://github.com/sindresorhus/caprine)from which most of the Passerine, is inspired from.
 
 ## License
 
