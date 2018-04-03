@@ -8,6 +8,7 @@ Passerine is a desktop version of Product Hunt :rocket:.
 
 <br>
 
+<a href="https://www.buymeacoffee.com/MqTYEIw" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 <a href="https://github.com/aviary-apps/Passerine/releases/latest">
 	<img src="media/light.png" width="846">
