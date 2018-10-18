@@ -1,7 +1,7 @@
 'use strict';
 const path = require('path');
 const fs = require('fs');
-const URL = require('url').URL;
+const Url = require('url').URL;
 const electron = require('electron');
 // -const electronLocalShortcut = require('electron-localshortcut');
 const log = require('electron-log');
@@ -9,14 +9,14 @@ const {autoUpdater} = require('electron-updater');
 const isDev = require('electron-is-dev');
 const appMenu = require('./menu');
 const config = require('./config');
-// const tray = require('./tray');
+// -const tray = require('./tray');
 
 require('electron-debug')({enabled: true});
 require('electron-dl')();
 require('electron-context-menu')();
 
-const domain = 'producthunt.com'	;
-const {app, ipcMain, Menu} = electron;
+const domain = 'producthunt.com';
+const {app, ipcMain} = electron;
 
 app.setAppUserModelId('com.gauthamzz.legacy');
 app.disableHardwareAcceleration();
@@ -45,7 +45,6 @@ const isAlreadyRunning = app.makeSingleInstance(() => {
 if (isAlreadyRunning) {
 	app.quit();
 }
-
 
 function createMainWindow() {
 	const lastWindowState = config.get('lastWindowState');
@@ -99,7 +98,6 @@ function createMainWindow() {
 
 	win.on('page-title-updated', (e, title) => {
 		e.preventDefault();
-
 	});
 
 	win.on('focus', () => {
@@ -116,7 +114,7 @@ app.on('ready', () => {
 	const trackingUrlPrefix = `https://l.${domain}/l.php`;
 	electron.Menu.setApplicationMenu(appMenu);
 	mainWindow = createMainWindow();
-	// tray.create(mainWindow);
+	// -tray.create(mainWindow);
 
 	if (process.platform === 'darwin') {
 		dockMenu = electron.Menu.buildFromTemplate([
@@ -132,14 +130,11 @@ app.on('ready', () => {
 		app.dock.setMenu(dockMenu);
 	}
 
-
 	const {webContents} = mainWindow;
-
 
 	webContents.on('dom-ready', () => {
 		webContents.insertCSS(fs.readFileSync(path.join(__dirname, 'browser.css'), 'utf8'));
 		webContents.insertCSS(fs.readFileSync(path.join(__dirname, 'dark-mode.css'), 'utf8'));
-
 
 		if (config.get('launchMinimized')) {
 			mainWindow.hide();
@@ -150,7 +145,7 @@ app.on('ready', () => {
 		mainWindow.webContents.send('toggle-mute-notifications', config.get('notificationsMuted'));
 	});
 
-	webContents.on('new-window', (event, url, frameName, disposition, options) => {
+	webContents.on('new-window', (event, url, frameName, options) => {
 		event.preventDefault();
 
 		if (url === 'about:blank') {
@@ -163,7 +158,7 @@ app.on('ready', () => {
 			}
 		} else {
 			if (url.startsWith(trackingUrlPrefix)) {
-				url = new URL(url).searchParams.get('u');
+				url = new Url(url).searchParams.get('u');
 			}
 
 			electron.shell.openExternal(url);
