@@ -30,7 +30,7 @@ const viewSubmenu = [
 
 const helpSubmenu = [
 	{
-		label: `Source Code`,
+		label: 'Source Code',
 		click() {
 			shell.openExternal('https://github.com/aviary-apps/Passerine');
 		}
@@ -104,7 +104,7 @@ const macosTpl = [
 	{
 		label: 'File',
 		submenu: [
-			
+
 		]
 	},
 	{
@@ -158,7 +158,6 @@ const otherTpl = [
 		label: 'File',
 		submenu: [
 
-		
 			{
 				type: 'separator'
 			},

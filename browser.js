@@ -31,6 +31,7 @@ function renderOverlayIcon(messageCount) {
 	return canvas;
 }
 
+//	eslint-disable-line capitalized-comments
 // ipc.on('toggle-sidebar', () => {
 // 	config.set('sidebarHidden', !config.get('sidebarHidden'));
 // 	setSidebarVisibility();
